@@ -1,8 +1,13 @@
 import React from "react";
-import { View } from "react-native";
+import { StatusBar, Text, View } from "react-native";
 
 const GameOverScreen = () => {
-  return <View>GameOverScreen</View>;
+  return (
+    <View>
+      <Text>Game Over</Text>
+      <StatusBar barStyle="auto" />
+    </View>
+  );
 };
 
 export default GameOverScreen;
