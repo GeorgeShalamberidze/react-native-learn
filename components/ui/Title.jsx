@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   title: {
     fontFamily: "open-sans-bold",
     fontSize: 34,
-    color: "white",
+    color: "black",
     textAlign: "center",
   },
 });
