@@ -47,7 +47,7 @@ const GameScreen = ({ userNum, onGameOver }) => {
 
   return (
     <SafeAreaView style={styles.screen}>
-      <Title text={"Guess: "} />
+      <Title>Guess: </Title>
       <NumberContainer>{currentGuess}</NumberContainer>
       <View>
         <Text style={styles.text}>Higher or Lower ?</Text>

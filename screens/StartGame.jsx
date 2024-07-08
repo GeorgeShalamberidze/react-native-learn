@@ -37,7 +37,7 @@ const StartGame = ({ pickedNumber }) => {
     <ScrollView>
       <KeyboardAvoidingView style={styles.screen} behavior="position">
         <View style={[styles.inputContainer, { marginTop }]}>
-          <Title>Hey</Title>
+          <Title>Guess the number: </Title>
           <TextInput
             style={styles.textInput}
             maxLength={2}
